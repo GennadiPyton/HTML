@@ -41,16 +41,13 @@
                  result = num1 + num2;
                  break;
               case '-':
-                 result = num1 + num2;
-                 break;
-              case '-':
-                 result = num1 + num2;
+                 result = num1 - num2;
                  break;
               case '*':
-                 result = num1 + num2;
+                 result = num1 * num2;
                  break;
               case '/':
-                 result = num1 + num2;
+                 result = num1 / num2;
                  break;   
           }
           document.getElementById("result").innerHTML = result;
@@ -72,13 +69,13 @@
             case "plus":
                 op = "+"
                 break;
-            case "plus":
+            case "minus":
                 op = "-"
                 break;
-            case "plus":
+            case "times":
                 op = "*"
                 break;
-            case "plus":
+            case "divide":
                 op = "/"
                 break;    
         }
